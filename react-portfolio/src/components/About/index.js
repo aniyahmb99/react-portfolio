@@ -1,6 +1,7 @@
 import React from "react";
+import "./style.css"
 
-function About() {
+export default function About() {
   return (
     <div className="box-shadow">
       <div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-function Nav(props) {
+export default function Nav(props) {
   return (
     <div className="navbar">
       <a className="hover" href="#about">

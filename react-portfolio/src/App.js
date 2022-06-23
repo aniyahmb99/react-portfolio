@@ -1,7 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { Component, useState } from 'react';
+import About from './components/About';
+import ContactForm from './components/Contact';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Nav from './components/Nav';
+import Project from './components/Project';
+import Resume from './components/Resume';
+import 
 
-function App() {
+
+
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +31,8 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
+}
 }
 
 export default App;

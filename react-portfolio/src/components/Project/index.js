@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project() {
+export default function Project() {
   return (
     <div className="header sectionBorder">
       <h2 className="title box-shadow">Resume</h2>

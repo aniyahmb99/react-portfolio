@@ -6,8 +6,7 @@ import Portfolio from "../../components/Portfolio";
 import Contact from "../../components/Contact";
 import Resume from "../../components/Resume";
 
-class Hero extends Component {
-  render() {
+export default function Hero () {
     return (
       <div className="hero">
         <div className="hero-text">
@@ -67,6 +66,6 @@ class Hero extends Component {
       //   </HashRouter>
     );
   }
-}
+
 
 export default Hero;
