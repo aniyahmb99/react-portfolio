@@ -1,8 +1,8 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import "../Navbar/index.css";
+import "../../App";
 
-export default function Nav(props) {
+export default function Navbar() {
   return (
     <div className="navbar">
       <a className="hover" href="#about">
@@ -23,5 +23,3 @@ export default function Nav(props) {
     </div>
   );
 }
-
-export default Nav;

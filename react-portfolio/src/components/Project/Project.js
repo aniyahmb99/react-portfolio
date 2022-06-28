@@ -1,4 +1,6 @@
 import React from "react";
+import "../Project/index.css";
+import "../../App";
 
 export default function Project() {
   return (
@@ -12,5 +14,3 @@ export default function Project() {
     </div>
   );
 }
-
-export default Project;

@@ -1,4 +1,5 @@
 import React from "react";
+import "../../App";
 
 export default function Resume() {
   return (
@@ -13,4 +14,4 @@ export default function Resume() {
   );
 }
 
-export default Resume;
+// import resume or use as prop?

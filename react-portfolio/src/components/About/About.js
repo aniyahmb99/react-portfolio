@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css"
+import "../../App.js";
 
 export default function About() {
   return (
@@ -26,5 +26,3 @@ export default function About() {
     </div>
   );
 }
-
-export default About;

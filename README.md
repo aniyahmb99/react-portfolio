@@ -1,8 +1,16 @@
-# My Portfolio
+# React-Portfolio
+
+# Deployed Link
+
+https://aniyahmb99.github.io/react-portfolio/
+
+# Screenshot
+
+![Portfolio Screenshot](/react-portfolio/public/portfolio-screenshot.png)
 
 # Description
 
-This is a portfolio website with some of my favorite projects featured under my work as well as all of my contact info and my resume.
+This is a portfolio website with some of my favorite projects featured under my work as well as all of my contact info and my resume.This project is being rendered using React.js.
 
 # Table of Contents
 
@@ -31,10 +39,6 @@ Aniyah Butler
 
 # Tests
 
-none
-
 # Questions
 
 If you have any questions please contact me at aniyah_mb@yahoo.com
-
-# Screenshot
