@@ -1,13 +1,13 @@
 import React from "react";
 import "../../App";
+import { resume } from "../Resume/Resume.pdf";
 
-export default function Resume() {
+export default function Resume(props) {
   return (
     <div className="header sectionBorder">
-      <h2 className="title box-shadow">Resume</h2>
       <div className="resume-card" id="resume">
-        <a href="./assets/QA Resume.pdf">
-          <img className="resumeImg" src="./assets/images/resume.jpg" />
+        <a href={props.resume}>
+          <img src={props.resume}></img>=
         </a>
       </div>
     </div>

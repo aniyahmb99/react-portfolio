@@ -9,16 +9,13 @@ export default function Navbar() {
         About
       </a>
       <a className="hover" href="#work">
-        {"{"}" "{"}"}
         Work
       </a>
       <a className="hover" href="#resume">
-        {"{"}" "{"}"}
         Resume
       </a>
       <a className="hover border-right" href="#contact">
-        {"{"}" "{"}"}
-        Contact{"{"}" "{"}"}
+        Contact
       </a>
     </div>
   );
